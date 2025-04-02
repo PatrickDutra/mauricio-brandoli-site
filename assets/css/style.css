@@ -42,7 +42,7 @@ font-family: 'Rufina', serif;
 body{
 	font-family: 'Poppins', sans-serif;
 	font-size:16px;
-	color:#818998;
+	color:#090940;
     text-transform:initial;
     max-width:1920px;
     margin:0 auto;
@@ -52,7 +52,7 @@ body{
 a,a:hover,a:active,a:focus {
 	display:inline-block;
 	text-decoration:none;
-	color: #444a57;
+	color: #000000;
 	font-size:20px;
 	padding:0;
     font-weight: 500;
@@ -60,14 +60,14 @@ a,a:hover,a:active,a:focus {
 }
 h1,h2,h3,h4,h5,h6 { 
 	margin: 0;
-	color:#444a57;
+	color:#000000;
     font-size: 20px;
     font-weight: 500;
     text-transform: capitalize;
 }
 p {
 	margin: 0;
-	color:#818998;
+	color:#000000;
 	font-size:16px;
     line-height: 1.8;
     text-transform: initial;
@@ -118,7 +118,7 @@ html,body{height: 100%;}
     margin-left: -42px;
     background: #1213ff;
 }
-.section-header p{color: #444a57;text-transform: capitalize;margin-bottom:10px;}
+.section-header p{color: #000000;text-transform: capitalize;margin-bottom:10px;}
 .section-header h2 span,.section-header p span{text-transform: lowercase;}
 
 /* section-header */
@@ -133,12 +133,12 @@ nav.navbar.bootsnav {
     background-color: transparent;
     border-bottom: transparent;
 }
-.wrap-sticky nav.navbar.bootsnav.sticked {background-color: #000;box-shadow: 0 2px 5px rgba(0,0,0,.2);}
+.wrap-sticky nav.navbar.bootsnav.sticked {background-color: #090940;box-shadow: 0 2px 5px rgba(0,0,0,.2);}
 
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus{
     display: inline-block;
-    color: #02105f;
+    color: #ffffff;
     font-size: 24px;
     letter-spacing: 3px;
     font-family: 'Rufina', serif;
@@ -374,7 +374,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1213ff;}
         6. New-cars
 --------------------------------------*/
 .new-cars{
-    background: #f8f9fb;
+    background: #213f7a;
     padding:112px 0 120px;
 }
 .new-cars-content{padding-top:96px;}
@@ -402,7 +402,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1213ff;}
     border: 1px solid #6a7781;
     border-radius: 50%;
 }
-.new-cars .owl-theme .owl-dots .owl-dot.active span,.new-cars .owl-theme .owl-dots .owl-dot:hover span {background: #6a7781;}
+.new-cars .owl-theme .owl-dots .owl-dot.active span,.new-cars .owl-theme .owl-dots .owl-dot:hover span {background: #1d84d3;}
 .new-cars .owl-theme .owl-nav.disabled+.owl-dots {margin-top: 62px;}
 /*.owl-dots */
 
@@ -416,7 +416,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1213ff;}
 
 /*.single-featured-cars*/
 .featured-img-box {
-    border: 1px solid #dadfe9;
+    border: 1px solid #213f7a;
 }
 .featured-cars-img {
     display: flex;
@@ -424,12 +424,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1213ff;}
     justify-content: center;
     padding: 0 30px;
     height: 220px;
-    border-bottom: 1px solid #dadfe9;
+    border-bottom: 1px solid #213f7a;
 }
 .featured-model-info{padding:12px 7px;}
 .featured-model-info p {
     font-size: 12px;
-    color: #8c92a0;
+    color: #213f7a;
     text-transform: capitalize;
 }
 .featured-mi-span{display: inline-block;margin:0 10px;}
@@ -444,7 +444,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1213ff;}
 /*-------------------------------------       
         8. Clients-say 
 --------------------------------------*/
-.clients-say{padding:115px 0 80px;background: #f8f9fb;}
+.clients-say{padding:115px 0 80px;background: #0d5af3;}
 
 /*single-testimonial-box */
 .single-testimonial-box  {
@@ -550,7 +550,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1213ff;}
 /*.footer-logo*/
 .footer-logo a,.footer-logo a:hover,.footer-logo a:focus{
     display: inline-block;
-    color: #fff;
+    color: #ffffff;
     font-size: 24px;
     letter-spacing: 3px;
     font-family: 'Rufina', serif;
